@@ -8,20 +8,34 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        code: ['var(--font-code)', 'monospace'],
+      },
       colors: {
         //background: "var(--background)",
         //foreground: "var(--foreground)",
-        "custom-black": "#000000",
-        "custom-black-2": "#212121",
-        "custom-white": "#f5f5f5",
-        "custom-blue": "#3f51b5",
-        "custom-gray": {
-          "gray-1": "#4b4b4b",
-          "gray-2": "#767676",
-          "gray-3": "#a0a0a0",
-          "gray-4": "#cbcbcb"
+        "cus-black":{
+          "0": "#000000",
+          "1": "#212121",
+          "2": "#424242",
+        } ,
+        "cus-white":{
+          "0": "#ffffff",
+          "1": "#f5f5f5",
         },
-        "custom-orange": "#ffd180",
+        "cus-violet": {
+          "0": "#9c27b0",
+        },
+        "cus-blue": {
+          "0": "#3f51b5",
+          "1": "#303d8a",
+        },
+        "cus-gray": {
+          "0": "#4b4b4b",
+          "1": "#767676",
+          "2": "#a0a0a0",
+          "3": "#cbcbcb"
+        },
       },
     },
   },
