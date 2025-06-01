@@ -3,7 +3,7 @@ Este Proyecto consiste en mi propio portafolio personal.
 
 Librerias utilizadas
 
-iconos: npm install @heroicons/react
+iconos: npm install lucide-react
 
 componentes de ui compatibles con Tailwind: npm install @headlessui/react
 

@@ -36,12 +36,11 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className="fixed w-[80%] h-auto z-20 bg-cus-black-1 bg-opacity-70 backdrop-blur-sm m-6 rounded-lg shadow-lg 
-            shadow-cus-black-1 border border-cus-gray-1" >
+        <nav className="fixed w-[80%] h-auto z-20 m-6" >
 
             <ul className="flex justify-between font-code text-base text-cus-gray-3">
 
-                <figure className="px-6 gap-x-4 animate__animated animate__flip animate__slower animate__infinite infinite">
+                <figure className="px-6 gap-x-4">
 
                     <Image
                         src={personalIcon}
@@ -63,7 +62,7 @@ export default function Navbar() {
                                 key={'n' + item.name}
                                 href={item.href}
                                 className={`hover:bg-cus-blue-0 hover:text-cus-white-1 rounded-md px-4 py-2 
-                                    transition-colors duration-200 ${activeSection === sectionId ? 'underline text-cus-violet-0' : '' }`}
+                                    transition-colors duration-200 ${activeSection === sectionId ? 'underline text-cus-violet-0' : ''}`}
                             >
                                 {item.name}
                             </Link>
@@ -73,8 +72,17 @@ export default function Navbar() {
 
                 </div>
 
+                <figure className="px-6 gap-x-4">
+
+                    <Image
+                        src={personalIcon}
+                        alt="Icono_Personal"
+                        width={75}
+                    />
+
+                </figure>
             </ul>
-            
+
         </nav >
     );
 

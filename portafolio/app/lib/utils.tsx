@@ -1,7 +1,7 @@
 export const routes = [
     { name: 'Inicio', href: '#home' },
     { name: 'Proyectos', href: '#proyects' },
-    { name: 'Habilidades', href: '#skills' },
+    { name: 'Sobre Mi', href: '#skills' },
     { name: 'Contactame', href: '#contact' }
 ];
 

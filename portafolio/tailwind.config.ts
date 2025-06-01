@@ -6,14 +6,13 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: ["class"],
   theme: {
     extend: {
       fontFamily: {
         code: ['var(--font-code)', 'monospace'],
       },
       colors: {
-        //background: "var(--background)",
-        //foreground: "var(--foreground)",
         "cus-black":{
           "0": "#000000",
           "1": "#212121",
